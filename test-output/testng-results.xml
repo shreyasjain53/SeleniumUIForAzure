@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-23T19:53:08 IST" name="Suite" finished-at="2023-09-23T19:53:37 IST" duration-ms="28344">
+    <groups>
+    </groups>
+    <test started-at="2023-09-23T19:53:08 IST" name="Test" finished-at="2023-09-23T19:53:37 IST" duration-ms="28344">
+      <class name="Tests.AzureSampleTest">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:Tests.AzureSampleTest@128d2484]" started-at="2023-09-23T19:53:08 IST" name="browserLaunch" finished-at="2023-09-23T19:53:12 IST" duration-ms="3532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="urLValidation()[pri:1, instance:Tests.AzureSampleTest@128d2484]" started-at="2023-09-23T19:53:12 IST" name="urLValidation" finished-at="2023-09-23T19:53:21 IST" duration-ms="8939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urLValidation -->
+        <test-method signature="titleValidation()[pri:2, instance:Tests.AzureSampleTest@128d2484]" started-at="2023-09-23T19:53:21 IST" name="titleValidation" finished-at="2023-09-23T19:53:28 IST" duration-ms="6825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method signature="contentValidation()[pri:3, instance:Tests.AzureSampleTest@128d2484]" started-at="2023-09-23T19:53:28 IST" name="contentValidation" finished-at="2023-09-23T19:53:36 IST" duration-ms="8792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AzureSampleTest@128d2484]" started-at="2023-09-23T19:53:36 IST" name="tearDown" finished-at="2023-09-23T19:53:37 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.AzureSampleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
