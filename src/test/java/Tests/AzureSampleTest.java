@@ -19,6 +19,7 @@ public class AzureSampleTest {
 	public void browserLaunch() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
+		System.out.println("Browser launched");
 	}
 
 	@Test(priority = 1)
@@ -44,6 +45,7 @@ public class AzureSampleTest {
 	@AfterClass
 	public void tearDown() {
 		driver.quit();
+		System.out.println("Browser closed");
 	}
 
 }
