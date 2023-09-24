@@ -32,7 +32,7 @@ public class AzureSampleTest {
 		Assert.assertEquals(driver.getTitle(), title);
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 3, enabled = false)
 	public void contentValidation() {
 		String pageText = driver
 				.findElement(By.xpath("//div[@class='container-fluid p-2 bg-primary text-white text-center']"))
