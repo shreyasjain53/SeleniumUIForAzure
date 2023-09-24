@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class AzureSampleTest {
 
-	WebDriver driver;
+	public WebDriver driver;
 	String url = "https://shreyasjain.azurewebsites.net/webapp/";
 	String title = "Shreyas Jain";
 	String pageHeaderText = "Shreyas Kumar P";
